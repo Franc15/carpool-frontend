@@ -7,10 +7,11 @@ import RegisterPassenger from './components/register';
 import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.css';
+import PassengerDashboard from './components/passengerDashboard';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RegisterPassenger />
+    <PassengerDashboard />
   </React.StrictMode>,
   document.getElementById('root')
 );
