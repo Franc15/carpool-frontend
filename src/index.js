@@ -8,10 +8,12 @@ import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import PassengerDashboard from './components/passengerDashboard';
+import RegisterDriver from './components/registerDriver';
+import RegisterDriver2 from './components/registerDriver2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <PassengerDashboard />
+    <RegisterDriver2 />
   </React.StrictMode>,
   document.getElementById('root')
 );

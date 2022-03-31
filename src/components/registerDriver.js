@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-class RegisterPassenger extends Component {
+class RegisterDriver extends Component {
     state = {  } 
     render() { 
         return (
             <form>
                 <div className='m-2'>
-                    <h3 style={{textAlign:'center'}}>Register as Passenger</h3>
+                    <h3 style={{textAlign:'center'}}>Register as Driver</h3>
                     <p style={{textAlign:'center'}}>Enter basic user data</p>
                 </div>
                 <div className="m-2">
@@ -290,7 +290,7 @@ class RegisterPassenger extends Component {
                     <input className="form-control" type="text" name="address" placeholder="Address" />
                 </div>
                 <div className="m-2">
-                    <input className="btn btn-block btn-primary btn-md" type="submit" value="REGISTER" />
+                    <input className="btn btn-block btn-primary btn-md" type="submit" value="NEXT" />
                 </div>
             </form>
         );
@@ -298,4 +298,4 @@ class RegisterPassenger extends Component {
 }
 
  
-export default RegisterPassenger;
+export default RegisterDriver;
