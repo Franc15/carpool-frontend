@@ -19,7 +19,7 @@
     "eject": "react-scripts eject"
   },
     "proxy":"http://localhost:8000",
-    "eslintconfig": {
+    "eslintonfig": {
       "extends": "react-app"
   },
   "eslintConfig": {

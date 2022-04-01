@@ -13,7 +13,7 @@ import RegisterDriver2 from './components/registerDriver2';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RegisterDriver2 />
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 );
