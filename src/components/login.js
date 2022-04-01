@@ -4,7 +4,7 @@ class Login extends Component {
     state = {  } 
     render() { 
         return (
-            <form method="POST">
+            <form action="/" method="POST">
                 <div className="m-2">
                     <input className="form-control" type="text" name="name" placeholder="Username" />
                 </div>
